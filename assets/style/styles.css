@@ -16,6 +16,7 @@ header {
     left:0;
     width:100%;
     text-align:center;
+    z-index: 1;
 }
 
 .logo {
@@ -189,6 +190,7 @@ nav {
     transition: 0.5s;
     outline: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .content a:hover, a:focus{
