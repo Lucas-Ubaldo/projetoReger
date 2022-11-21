@@ -380,7 +380,7 @@ footer h3 {
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #23232ec9;
+        background: #151d30da;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -399,12 +399,12 @@ footer h3 {
     .container{
         width: 100%;
         height: auto;
-        margin-top: 25px;
+        margin-top: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: #4f4f67;
+        background-color: #222E4A;
         
     }
 
@@ -440,7 +440,8 @@ footer h3 {
     .text-box-1 {
         width: 100%;
         height: auto;
-        background: #a2a2d3;
+        margin-top: 15px;
+        background: #674949;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -448,7 +449,7 @@ footer h3 {
     .text-box-2 {
         width: 100%;
         height: 80vh;
-        background: #78789c;
+        background: #495844;
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
@@ -456,7 +457,7 @@ footer h3 {
     .text-box-3 {
         width: 100%;
         height: 80vh;
-        background: #4f4f67;
+        background: #4C5567;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -464,7 +465,7 @@ footer h3 {
     .text-box-4 {
         width: 100%;
         height: auto;
-        background: #23232d;
+        background: #5F6243;
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
@@ -517,6 +518,33 @@ footer h3 {
         margin-left: 25px;
         margin-right: 40px;
         
+    }
+}
+
+@media (max-width: 440px){
+    .title{
+        position: relative;
+        font-family: Oswald;
+        text-transform: uppercase;
+        text-align: center;
+        width: auto;
+        height: auto;
+        top: 30%;
+        color: white;
+        font-size: 145px;
+        text-shadow: 3px 3px 3px #000000, -3px 3px #000000, 3px -3px 3px #000000, -3px -3px 3px #000000;
+        transition: translate(-50%, -50%);
+    
+    }  
+
+    .banner{
+        background-image: url("../images/banner.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        position: relative;
+        width: auto;
+        height: 50vh;
     }
 }
 
