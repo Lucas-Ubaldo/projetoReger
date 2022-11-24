@@ -366,33 +366,10 @@ footer h3 {
     width: 40px;
 }
 
-
-
-@media (max-width: 999px) {
+/* Reponsividade text box e imagens*/
+@media (max-width: 1100px) {
     body {
         overflow-x: hidden;
-    }
-
-    .nav-items {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background: #151d30da;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-    }
-    .nav-items li {
-        font-size: 1.2rem;
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    .hamburguer {
-        display: block;
     }
 
     .container{
@@ -447,7 +424,7 @@ footer h3 {
     }
     .text-box-2 {
         width: 100%;
-        height: 80vh;
+        height: 60vh;
         background: #495844;
         display: flex;
         flex-direction: row-reverse;
@@ -455,7 +432,7 @@ footer h3 {
     }
     .text-box-3 {
         width: 100%;
-        height: 80vh;
+        height: 60vh;
         background: #4C5567;
         display: flex;
         flex-direction: row;
@@ -468,6 +445,40 @@ footer h3 {
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
+    }
+    
+    .info {
+        text-align: justify;
+        word-wrap: normal;
+        align-self: center;
+        margin: 25px;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .info p{
+        margin-top: 20px;
+    }
+    
+    .info h1{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    
+    .info h2{
+        font-size: 1.4rem;
+        color: #ffffff;
+        margin-top: 25px;
+        text-decoration: underline;
+        font-weight: lighter;
+    }
+    
+    .info li{
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-right: 40px;
+        
     }
 
     .corner-img-left1{
@@ -483,43 +494,34 @@ footer h3 {
         display: none;
     }
 
-    .info {
-        text-align: justify;
-        word-wrap: normal;
-        align-self: center;
-        margin: 25px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 830px){
+    .nav-items {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #151d30da;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
     }
-    
-    .info p {
-        font-size: 18px;
-        color: #ffffff;
-        margin-top: 25px;
+    .nav-items li {
+        font-size: 1.2rem;
+        margin-left: 0;
+        opacity: 0;
     }
-    
-    .info h1{
-        font-size: 24px;
-        color: #ffffff;
-        font-weight: bold;
-    }
-    
-    .info h2{
-        font-size: 22px;
-        color: #ffffff;
-        margin-top: 25px;
-        text-decoration: underline;
-    }
-    
-    .info li{
-        font-size: 18px;
-        color: #ffffff;
-        margin-top: 25px;
-        margin-left: 25px;
-        margin-right: 40px;
-        
+
+    .hamburguer {
+        display: block;
     }
 }
 
+
+/*Responsibilidade texto banner*/
 @media (max-width: 440px){
     .title{
         position: relative;
