@@ -213,7 +213,7 @@ nav {
 .container .card:hover{
     background-color: #23232d;
     color: #ffffff;
-    margin-top: -5px;
+    margin-top: 5px;
     box-shadow: 2px 10px 15px #000000;
     border-color: #ffffff;
 }
