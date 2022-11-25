@@ -20,6 +20,22 @@ header {
     z-index: 1;
 }
 
+body {
+    background-color: #26583d;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
 .logo {
     font-size: 1.6rem;
     text-transform: uppercase;
@@ -61,22 +77,6 @@ nav {
     background: #ffffff;
     margin: 8px;
     transition: 0.3s;
-}
-
-body {
-    background-color: #26583d;
-}
-
-h1 {
-    color: #ffffff;
-    text-align: center;
-    justify-content: center;
-    width: auto;
-    margin-top: 150px;
-    margin-bottom: 15px;
-    font-size: 2.2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: relative;
 }
 
 .sobre { 

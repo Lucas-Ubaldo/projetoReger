@@ -478,7 +478,7 @@ footer h3 {
         color: #ffffff;
         margin-top: 25px;
         text-decoration: underline;
-        font-weight: lighter;
+        font-weight: normal;
     }
     
     .info li{
@@ -503,6 +503,7 @@ footer h3 {
 
 }
 
+/*Responsividade header menu hamburguer*/
 @media (max-width: 830px){
     .nav-items {
         position: absolute;
