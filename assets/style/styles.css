@@ -387,7 +387,7 @@ footer h3 {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: #26583d;
+        background-color: #189264;
         
     }
 
@@ -424,7 +424,7 @@ footer h3 {
         width: 100%;
         height: auto;
         margin-top: 15px;
-        background: #674949;
+        background: #47b786;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -432,7 +432,7 @@ footer h3 {
     .text-box-2 {
         width: 100%;
         height: auto;
-        background: #495844;
+        background: #2fa575;
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
@@ -440,7 +440,7 @@ footer h3 {
     .text-box-3 {
         width: 100%;
         height: 60vh;
-        background: #4C5567;
+        background: #189264;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -448,7 +448,7 @@ footer h3 {
     .text-box-4 {
         width: 100%;
         height: auto;
-        background: #5F6243;
+        background: #008053;
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
